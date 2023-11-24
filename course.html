@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>COMPUTER SCIENCE DEPARTMENT</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="./images/comScience_logo.png" alt="Department logo" style="width:250px"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="./home.html">HOME</a></li>
+                        <li><a href="./about.html">ABOUT</a></li>
+                        <li><a href="./course.html">COURSE</a></li>
+                        <li><a href="./blog.html">BLOG</a></li>
+                        <li><a href="./contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Courses</h1>
+      
+        </section>
+
+        <!--course-->
+
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p><b>Dive into the Digital Realm:</b> Explore our Computer Science courses, covering everything from foundational programming to advanced topics like artificial intelligence and cybersecurity. 
+                Equip yourself with the skills needed to thrive in the fast-paced world of technology</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Undergraduate Programmes</h3>
+                <p><b>Forge Your Future in Tech:</b>Our computer science undergraduate program offers a dynamic 
+                    curriculum blending theory and hands-on experience, preparing you for a successful career in the ever-evolving world of technology.</p>
+                </div>
+                <div class="course-col">
+                    <h3>MPhil and Msc Programmes</h3>
+                <p><b>Elevate Your Expertise in Tech:</b> Our MPhil and MSc programs in Computer Science offer advanced, 
+                    research-driven education, allowing you to delve deep into specialized areas and emerge as a leader in the ever-evolving world of technology.</p>
+                </div>
+                <div class="course-col">
+                    <h3>PhD Programmes</h3>
+                <p><b>Pioneer Innovation in Tech:</b> Our Computer Science PhD program is a gateway to groundbreaking research and leadership in the digital frontier.
+                     Join a community of scholars pushing the boundaries of knowledge and shaping the future of technology</p>
+                </div>
+            </div>
+            
+        </section>
+
+        <!--facilities-->
+
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>
+                <b>Cutting-Edge Labs:</b> Immerse yourself in innovation with our state-of-the-art computer labs equipped with the latest hardware and software. 
+                Explore, experiment, and bring your coding projects to life in an environment designed for technological excellence
+            </p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="./images/e-library.jpg">
+                    <h3>World Class E-Library</h3>
+                    <p>you is a bitch</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="./images/lecturehall.jpg">
+                    <h3>Ultra-Morden Lecture Halls</h3>
+                    <p>you is a bitch</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="./images/student-lounge.jpg">
+                    <h3>State-of-the-art Student lounge</h3>
+                    <p>you is a bitch</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--Footer-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Whether you're a seasoned coder or just beginning your exploration of computer science, University Of Ghana is where your tech journey begins.<br /> Join us in pushing the boundaries of what's possible and become part of a community that's shaping the future of technology.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i> 
+            </div>
+            <p>Made By Theo Daniels Jr(11031981)</p>
+        </section>
+
+
+
+
+
+
+
+
+
+        <!--Javascript for the toggle menu-->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0"
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px"
+            }
+
+        </script>
+
+    </body>
+</html>

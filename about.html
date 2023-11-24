@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>COMPUTER SCIENCE DEPARTMENT</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="./images/comScience_logo.png" alt="Department logo" style="width:250px"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="./home.html">HOME</a></li>
+                        <li><a href="./about.html">ABOUT</a></li>
+                        <li><a href="./course.html">COURSE</a></li>
+                        <li><a href="./blog.html">BLOG</a></li>
+                        <li><a href="./contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+      
+        </section>
+
+        <!--About Us Content-->
+
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>Insights into the University Of Ghana CS Department</h1>
+                    <p>Welcome to the vibrant and innovative Computer Science Department at [University Name]. 
+                        Our department is at the forefront of cutting-edge research, rigorous academic programs, and a commitment to preparing students for success in the ever-evolving field of computer science.</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+
+                </div>
+                <div class="about-col">
+                    <img src="./images/meet.jpg">
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <!--Footer-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Whether you're a seasoned coder or just beginning your exploration of computer science, University Of Ghana is where your tech journey begins.<br /> Join us in pushing the boundaries of what's possible and become part of a community that's shaping the future of technology.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i> 
+            </div>
+            <p>Made By Theo Daniels Jr(11031981)</p>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--Javascript for the toggle menu-->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0"
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px"
+            }
+
+        </script>
+
+    </body>
+</html>
