@@ -77,9 +77,13 @@ Here's a rundown of each Page (with screenshots):<hr>
 LEARNING EXPERIENCE<hr>
 
 Throughout this project, I have gained valuable experience in:
+
 1)HTML and CSS for building a responsive and visually appealing website.
+
 2)Organizing and presenting information effectively.
+
 3)Incorporating images and multimedia to enhance the user experience.
+
 4)The importance of clear documentation and creating a professional README.
 
 This project has not only allowed me to showcase my technical skills but also to reflect on the importance of effective communication in web development.
